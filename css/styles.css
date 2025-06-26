@@ -1,0 +1,241 @@
+:root {
+  box-sizing: border-box;
+  font-family: sans-serif, Arial, Helvetica;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #e1e1e1;
+
+  background-image: radial-gradient(at top left, #ababab 10% 20%, #ffffff);
+
+  color: #000000;
+}
+.container {
+  width: 96%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+h1 {
+  font-family: "Sue Ellen Francisco", "Style Script", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  font-style: normal;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: #ababab;
+}
+.h2-som {
+  width: 250px;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Sue Ellen Francisco", "Style Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 500;
+  text-shadow: 0.5rem 0.5rem 0.1rem #00000065;
+}
+
+.box,
+.box2,
+.box3 {
+  border: medium solid #000000;
+  margin-bottom: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 250px;
+}
+
+p {
+  font-family: "Sue Ellen Francisco", "Style Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+  font-size: 2rem;
+}
+
+.shadows {
+  color: #000000;
+  font-size: 1rem;
+  text-align: center;
+  /* box-shadow: mov-x mov-y blur-radius spread-blur color inset/outset; */
+  box-shadow: 0.5rem 0.5rem 0.75rem 0.5rem #000000bb;
+  /* text-shadow: mov-x mov-y blur-radius color; */
+  text-shadow: 0.5rem 0.5rem 0.1rem #00000065;
+}
+.box,
+.shadows {
+  background-color: #000000;
+  color: #fbff01;
+}
+
+.gra-sha {
+  color: #000000;
+  font-size: 1rem;
+  text-align: center;
+  /* box-shadow: mov-x mov-y blur-radius spread-blur color inset/outset; */
+  box-shadow: 0.5rem 0.5rem 0.75rem 0.5rem #1b028aad;
+  /* text-shadow: mov-x mov-y blur-radius color; */
+  text-shadow: 0.5rem 0.5rem 0.1rem #fbff0150;
+}
+
+.gradients {
+  font-size: 1rem;
+  text-align: center;
+  background-color: #833ab4;
+
+  background-image: linear-gradient(#6b97f7, #7525e2, #833ab4, #f7137e);
+}
+.gradients2 {
+  font-size: 1rem;
+  text-align: center;
+  background-color: #833ab4;
+  background-image: linear-gradient(
+    280deg,
+    #090979,
+    #06429e,
+    #047ac3,
+    #02aee6,
+    #00d4ff
+  );
+}
+.gradients3 {
+  background-image: radial-gradient(
+    circle at bottom left,
+    #03071e,
+    #370617,
+    #6a040f,
+    #9d0208,
+    #d00000,
+    #dc2f02,
+    #e85d04,
+    #f48c06,
+    #faa307,
+    #ffba08
+  );
+}
+
+.gradients4 {
+  background-image: radial-gradient(
+    circle at top right,
+    #004b23,
+    #006400,
+    #007200,
+    #008000,
+    #38b000,
+    #70e000,
+    #9ef01a,
+    #ccff33
+  );
+}
+.box2 {
+  background-color: #000000;
+  color: #eeff00;
+}
+.box2,
+.shadows img {
+  max-width: 250px;
+  max-height: 250px;
+  object-fit: cover;
+  object-position: 50% 0%;
+}
+.gradients p,
+.gradients2 p,
+.gradients3 p,
+.gradients4 p {
+  font-family: "Sue Ellen Francisco", "Style Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+.montez-regular {
+  font-family: "Montez", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.style-script-regular {
+  font-family: "Style Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.griffy-regular {
+  font-family: "Griffy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.henny-penny-regular {
+  font-family: "Henny Penny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sue-ellen-francisco-regular {
+  font-family: "Sue Ellen Francisco", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  font-family: "Style Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  outline: none;
+  text-decoration: none;
+  text-align: auto;
+  width: 30vw;
+  margin-left: 5vw;
+  margin-right: auto;
+  text-align: auto;
+}
+
+a:link {
+  color: #000000;
+  font-size: 1.5rem;
+}
+a:visited {
+  color: #000000;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  color: #000000;
+  font-size: 1.2rem;
+  text-shadow: 0.5rem 0.5rem 0.2rem #130066;
+}
+
+a:active {
+  color: #000000;
+  font-size: 1.5rem;
+}
+
+a:focus {
+  color: #000000;
+  font-size: 1.5rem;
+}
